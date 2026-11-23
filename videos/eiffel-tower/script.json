@@ -1,0 +1,42 @@
+{
+  "title": "The Man Who Sold the Eiffel Tower",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.3,
+  "outro": 1.2,
+  "gap": 0.2,
+  "music": "bounce",
+  "sources": [
+    "The Hustle, 'The con man who sold the Eiffel Tower - twice' (May 1925; Lustig read that the tower was expensive to keep up; forged Ministry of Posts and Telegraphs letterhead; posed as deputy director general; met five scrap dealers at the Hotel de Crillon, Place de la Concorde; 1.2m-franc contract plus a 70,000-franc bribe; fled by train to Vienna; Poisson was too embarrassed to alert the police; a second sale followed and its mark reported it)",
+    "Yahoo / Smithsonian + Mental Floss summaries, 'How Victor Lustig Convinced a Paris Dealer to Buy the Eiffel Tower' (roughly 7,000 tons of scrap metal; dealers invited to the Hotel de Crillon; Poisson a newcomer to Paris who wanted to join the city's business circles; Lustig bet Poisson would be too embarrassed to go to the authorities)",
+    "El Pais English, 'The incredible story of the man who sold the Eiffel Tower (twice)' (in 1925 the tower was an expensive burden for the city, not yet the revered symbol; Lustig hired a forger for letterheads and seals and rented a suite at the Crillon; after the second attempt the mark went to the police and Lustig escaped and fled)",
+    "Today I Found Out, 'The Man Who Sold the Eiffel Tower' (money changed hands before Lustig vanished; Poisson, new in town and wanting a reputation, let it slide)"
+  ],
+  "lines": [
+    { "text": "In 1925, a con man" },
+    { "text": "sold the Eiffel Tower." },
+    { "text": "To a real scrap metal dealer," },
+    { "text": "for a fortune." },
+    { "text": "See, Victor Lustig read in the papers" },
+    { "text": "that Paris couldn't afford the tower anymore." },
+    { "text": "So he forged government letterheads." },
+    { "text": "He invited five scrap dealers to the fanciest hotel in Paris," },
+    { "text": "and swore them all to secrecy." },
+    { "text": "The city was selling the tower for scrap,", "caps": "The city | was selling | the tower | for scrap," },
+    { "text": "seven thousand tons of metal.", "caps": "7,000 tons | of metal." },
+    { "text": "The bids came in," },
+    { "text": "but one name stood out." },
+    { "text": "Andre Poisson, a nobody dying to make his name.", "caps": "Andre Poisson, | a nobody | dying to | make his name." },
+    { "text": "He won the tower," },
+    { "text": "then paid a fat bribe on top," },
+    { "text": "just to make the deal go through." },
+    { "text": "The next morning, Lustig was on a train to Vienna," },
+    { "text": "and Poisson never called the police.", "caps": "and Poisson | never called | the police." },
+    { "text": "Too embarrassed to say he'd bought the Eiffel Tower." },
+    { "text": "Then Lustig came back for round two," },
+    { "text": "but that mark called the cops," },
+    { "text": "and Lustig vanished to America." },
+    { "text": "And the tower?" },
+    { "text": "Still standing.", "gap": 0.4 }
+  ]
+}
