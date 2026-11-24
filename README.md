@@ -17,7 +17,7 @@ strychnine, raw egg white and brandy. All facts verified against the sources lis
 | Platform | YouTube Shorts, 9:16, 1080×1920 |
 | Duration | 59.56 s · 24 fps · ~1,430 frames |
 | Format | H.264 + AAC with full mix baked in |
-| Output | `faceless video 2d/renders/marathon-1904.mp4` — built with the 5-step pipeline below (renders locally in ~30–60 min, chunked) |
+| Final render | [`faceless video 2d/renders/marathon-1904.mp4`](faceless%20video%202d/renders/marathon-1904.mp4) — rebuilt any time with the 5-step pipeline below |
 | Story style | Hook (0–3 s) → Setup → Development → Twist → Payoff ending, no intros |
 
 ## How the video should look (style bible)
@@ -108,7 +108,7 @@ faceless video 2d/
 ├── fonts/                      Inter Black/ExtraBold, Caladea Bold (bundled)
 ├── data/                       narration.wav, words.json, lines.json, cues.json, mix.wav
 ├── docs/storyboard.jpg         Timestamped contact sheet of the final film
-└── renders/                    Render chunks (0–14.9 s, 14.9–29.9 s committed) + the final film once rendered
+└── renders/                    Final film (1080×1920 H.264+AAC) + its render chunks
 ```
 
 ## Making another episode

@@ -393,13 +393,16 @@ export function buildShots(E) {
 
   // 17 · "Oh, and Fred Lorz? He said it was just a joke." — the car.
   { const st = cut(14), wj = Wd('joke', 14);
-    add({ id: 'S17', at: st, note: 'the car parks roadside with a wave to onlookers; the grin curls wider; the whole street watches him go', draw(lt, d, t, blit) {
+    add({ id: 'S17', at: st, note: 'head-on: Lorz beside his angled parked car waves with the medal, onlookers in shock behind; IT WAS A JOKE card stamps in', draw(lt, d, t, blit) {
       const k = eio(clamp(lt / d)); const w2e = clamp((t - wj - 0.1) / 0.35);
       gaspers.forEach((p) => (p.group.visible = false)); runners.forEach((r) => (r.group.visible = false)); hicks.group.visible = tr1.group.visible = tr2.group.visible = false;
-      car1.position.set(1.6, 0, -12); lorz.group.visible = true; lorz.at(3.1, 0, -12.6);
+      const cZ = -8.4 - lt * 0.5;
+      car1.position.set(-0.35, 0, cZ - 4.9); car1.rotation.y = 0.5; car1.visible = true;
+      lorz.group.visible = true; lorz.at(0.62, 0, cZ - 4.15);
       lorz.set({ mood: t > wj ? 'laugh' : 'smug', armL: [lerp(95, 140, eo(w2e)), lerp(-20, 10, w2e)], armR: [126, -8], holdL: medal, v: 'm2', blink: blink(t) });
-      crowd.slice(0, 3).forEach((c, i) => { c.group.visible = true; c.at(-3.6 - i * 1.0, 0, -13.5 + i * 2.2); c.set({ mood: 'shock', look: [0.5, 0.15], armR: [126, -8] }); });
-      shoot(RD.scene, rdPeople, V3(-0.6, 1.7, -8.6), V3(-0.2, 1.62, -10.0), V3(2.6, 1.4, -12.4), null, k, { ...LOOKS.road, fov: 52 });
+      const cspots = [[1.35, -3.7], [1.5, -4.7], [1.0, -5.5]];
+      crowd.slice(0, 3).forEach((c, i) => { const [cx, cz] = cspots[i]; c.group.visible = true; c.at(cx, 0, cZ + cz); c.set({ mood: 'shock', look: [-0.5, 0.15], armR: [126, -8] }); });
+      shoot(RD.scene, rdPeople, V3(0.15, 1.7, cZ), V3(0.15, 1.62, cZ - 0.8), V3(0.55, 1.45, cZ - 4.15), null, k, { ...LOOKS.road, fov: 44 });
       blit();
       const hit = clamp((t - wj) / 0.2);
       if (hit > 0) { ctx.save(); const sc = lerp(1.5, 1, eo(hit)); ctx.translate(540, 500); ctx.rotate(lerp(0.12, -0.045, eo(hit))); ctx.scale(sc, sc); ctx.globalAlpha = Math.min(1, hit * 2.5);
@@ -412,9 +415,9 @@ export function buildShots(E) {
   { const st = cut(15), wr = Wd('real', 15);
     add({ id: 'S18', at: st, note: 'sunrise over Boston: the same runner sprints down the road with both arms high crossing the tape, crowd roars', draw(lt, d, t, blit) {
       const k = eio(clamp(lt / d)); const win = clamp((t - wr + 0.2) / 0.3);
-      bLorz.group.visible = true; const zz = lerp(-34, -42.4, win); 
-      bLorz.at(0.4, 0, zz); bLorz.set({ legs: win > 0.85 ? 'stand' : 'run', phase: t * 2.9, mood: win > 0.8 ? 'laugh' : 'proud', armL: [lerp(95, 150, eo(win)), -10], armR: [lerp(95, 150, eo(win)), -10], blink: blink(t) });
-      shoot(BS.scene, [bLorz], V3(-2.6, 1.7, -34.0), V3(-1.8, 1.62, -35.4), V3(0.4, 1.5, zz - 1.5), null, k, { ...LOOKS.dusk, fov: 44 });
+      bLorz.group.visible = true; const zz = -34 - lt * 2.0;
+      bLorz.at(0.4, 0, zz - 3.1); bLorz.set({ legs: 'run', phase: t * 2.9, mood: win > 0.8 ? 'laugh' : 'proud', armL: [lerp(95, 150, eo(win)), -10], armR: [lerp(95, 150, eo(win)), -10], blink: blink(t) });
+      shoot(BS.scene, [bLorz], V3(0, 1.7, zz), V3(0, 1.62, zz - 0.7), V3(0.4, 1.5, zz - 3.1), null, k, { ...LOOKS.dusk, fov: 44 });
       blit();
     } });
     cue(st, 'whoosh'); cue(wr, 'sparkle', { dur: 1.2, gain: 0.6 }); }
