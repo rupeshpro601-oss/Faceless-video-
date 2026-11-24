@@ -1,0 +1,34 @@
+{
+  "title": "The Runner Who Won Olympic Gold In A Car",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "lead": 0.3,
+  "outro": 1.2,
+  "gap": 0.18,
+  "music": "bounce",
+  "sources": [
+    "Wikipedia, 'Frederick Lorz': dropped out at 9 miles, his manager drove him ~11 miles, the car broke down, he ran the last stretch, broke the tape, was cheered as winner (Alice Roosevelt photo) until confronted, claimed it was a joke; AAU banned him for life, commuted to 6 months in Feb 1905; he legitimately won the 1905 Boston Marathon (2:38:25)",
+    "Wikipedia, 'Thomas Hicks (athlete)' and 'Athletics at the 1904 Summer Olympics - Men's marathon': Hicks won in 3:28:53, the slowest Olympic marathon time, aided by strychnine sulfate + egg white + brandy (multiple doses), hallucinating and near collapse, carried by trainers over much of the final stretch per the 1905 Lucas and Spalding reports",
+    "Smithsonian Magazine, 'How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time': ~90F heat, dirt roads, cars raising dust, water only at a tower at ~6 miles and a well at ~10, doctors deferred water to study 'purposeful dehydration', strychnine is used primarily as a pesticide to kill rats (CDC), William Garcia nearly died from dust-afflicted stomach hemorrhaging",
+    "Olympics.com, 'The strange case of the St Louis 1904 marathon': Len Taunyane chased about a mile off course by wild dogs, finished 9th; Felix Carvajal laid low by stomach cramps after eating apples, finished 4th; strychnine in high doses is rat poison",
+    "Runner's World, 'The Unbelievable True Story of the 1904 Olympic Marathon': only 14 of 32 starters finished; Carvajal the Cuban postman; first recorded case of Olympic doping"
+  ],
+  "lines": [
+    { "text": "This man won Olympic gold,", "caps": "THIS | MAN WON | OLYMPIC GOLD," },
+    { "text": "by riding the marathon in a car.", "caps": "by | RIDING THE MARATHON | in a CAR." },
+    { "text": "See, at the nineteen oh four Olympics, athletes ran the marathon on a dirt road in brutal heat,", "caps": "SEE, | AT THE | 1904 OLYMPICS, | athletes ran | the MARATHON | on a | DIRT ROAD | in BRUTAL HEAT," },
+    { "text": "and the race director refused to give them water,", "caps": "the RACE DIRECTOR | refused | to give | RUNNERS WATER," },
+    { "text": "so he could study what dehydration does to the body.", "caps": "so he could | STUDY | what DEHYDRATION DOES | to the BODY." },
+    { "text": "Cars kicked up clouds of dust. Runners cramped, collapsed, and quit.", "caps": "CARS kicked up | CLOUDS of dust. | RUNNERS CRAMPED, | collapsed, | and QUIT." },
+    { "text": "One Cuban postman stopped mid-race to snack on rotten apples.", "caps": "one CUBAN POSTMAN | stopped mid-race | to snack on | ROTTEN APPLES." },
+    { "text": "And a South African runner got chased a mile off course by a pack of wild dogs.", "caps": "a South | African RUNNER | got CHASED | a mile off course | by WILD DOGS." },
+    { "text": "Meanwhile, the leader, Thomas Hicks, was begging for water.", "caps": "the LEADER, | THOMAS HICKS, | was BEGGING | for WATER." },
+    { "text": "So his trainers gave him something better.", "caps": "so his TRAINERS | gave him | something BETTER." },
+    { "text": "Strychnine, rat poison, mixed with raw egg white and brandy.", "caps": "STRYCHNINE, | RAT POISON, | mixed with | RAW EGG WHITE | and BRANDY." },
+    { "text": "He hallucinated, collapsed at the finish, and was carried over the line.", "caps": "he HALLUCINATED, | COLLAPSED | at the finish, | CARRIED | over the LINE." },
+    { "text": "He still won gold, in three hours, twenty eight minutes,", "caps": "he STILL | won GOLD, | in 3 HOURS, | 28 MINUTES," },
+    { "text": "still the slowest winning time in Olympic history.", "caps": "still the | SLOWEST winning time | in OLYMPIC HISTORY." },
+    { "text": "Oh, and Fred Lorz? He said it was just a joke.", "caps": "oh, and | FRED LORZ? | he said it was | JUST A JOKE." },
+    { "text": "A year later, un-banned, he won the Boston Marathon, for real.", "gap": 0.3, "caps": "a YEAR LATER, | UN-BANNED, | he won | the BOSTON MARATHON, | for REAL." }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+ "duration": 59.562,
+ "voice": "am_michael",
+ "speed": 1.05,
+ "lines": [
+  {
+   "i": 0,
+   "text": "This man won Olympic gold,",
+   "start": 0.3,
+   "end": 1.9
+  },
+  {
+   "i": 1,
+   "text": "by riding the marathon in a car.",
+   "start": 2.27,
+   "end": 4.186
+  },
+  {
+   "i": 2,
+   "text": "See, at the nineteen oh four Olympics, athletes ran the marathon on a dirt road in brutal heat,",
+   "start": 4.366,
+   "end": 10.416
+  },
+  {
+   "i": 3,
+   "text": "and the race director refused to give them water,",
+   "start": 10.966,
+   "end": 13.416
+  },
+  {
+   "i": 4,
+   "text": "so he could study what dehydration does to the body.",
+   "start": 13.906,
+   "end": 16.989
+  },
+  {
+   "i": 5,
+   "text": "Cars kicked up clouds of dust. Runners cramped, collapsed, and quit.",
+   "start": 17.169,
+   "end": 21.206
+  },
+  {
+   "i": 6,
+   "text": "One Cuban postman stopped mid-race to snack on rotten apples.",
+   "start": 21.386,
+   "end": 25.136
+  },
+  {
+   "i": 7,
+   "text": "And a South African runner got chased a mile off course by a pack of wild dogs.",
+   "start": 25.316,
+   "end": 30.483
+  },
+  {
+   "i": 8,
+   "text": "Meanwhile, the leader, Thomas Hicks, was begging for water.",
+   "start": 30.663,
+   "end": 33.987
+  },
+  {
+   "i": 9,
+   "text": "So his trainers gave him something better.",
+   "start": 34.167,
+   "end": 36.235
+  },
+  {
+   "i": 10,
+   "text": "Strychnine, rat poison, mixed with raw egg white and brandy.",
+   "start": 36.415,
+   "end": 40.094
+  },
+  {
+   "i": 11,
+   "text": "He hallucinated, collapsed at the finish, and was carried over the line.",
+   "start": 40.274,
+   "end": 44.213
+  },
+  {
+   "i": 12,
+   "text": "He still won gold, in three hours, twenty eight minutes,",
+   "start": 44.393,
+   "end": 47.783
+  },
+  {
+   "i": 13,
+   "text": "still the slowest winning time in Olympic history.",
+   "start": 48.133,
+   "end": 50.927
+  },
+  {
+   "i": 14,
+   "text": "Oh, and Fred Lorz? He said it was just a joke.",
+   "start": 51.107,
+   "end": 54.04
+  },
+  {
+   "i": 15,
+   "text": "A year later, un-banned, he won the Boston Marathon, for real.",
+   "start": 54.22,
+   "end": 58.062
+  }
+ ]
+}
