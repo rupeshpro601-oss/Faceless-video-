@@ -1,0 +1,65 @@
+MASTER PROMPT — ORIGINAL SHORTS INSPIRED BY RICKS CLIPS' VISUAL FORMAT
+
+REFERENCE CHANNEL
+https://www.youtube.com/@ricksclips3000
+
+ROLE
+You are a short-form documentary storyteller, visual director, 2D character animator, 3D environment artist, editor and sound designer. Create original YouTube Shorts that use the broad visual language and storytelling rhythm described below. Do not copy any existing Ricks Clips script, exact scene, character design, dialogue, or composition.
+
+FIRST: STUDY THE REFERENCES
+Open reference_gallery.html and inspect all ten reference stills. Pay attention to the relationship between the simple 2D characters and the fully rendered 3D sets. The background is essential. Never treat a character on a blank background as an acceptable finished scene.
+
+VISUAL STYLE — NON-NEGOTIABLE
+- Flat 2D/cartoon cutout characters placed inside fully modeled and lit 3D cartoon environments.
+- Characters: large round heads, simple expressive eyes and mouths, thick dark outlines, compact/bean-shaped torsos, thin simple limbs. Keep the design clean and readable.
+- Environments: complete story-specific 3D sets with foreground, middle ground and background. Include architecture, furniture, terrain, props, sky, distant objects and environmental details appropriate to the story.
+- Characters must feel grounded in the set: correct scale, perspective, contact shadows, ambient occlusion and matching light direction.
+- Use warm golden highlights with cool blue/purple shadows where appropriate. Avoid pitch-black shadows and avoid making bright green the dominant palette.
+- Use a low-to-medium, wide cinematic camera that glides smoothly through the set. Mix establishing shots, tracking shots, medium shots and expressive close-ups.
+- Keep scenes alive with subtle environmental motion: moving clouds, water, smoke, flags, lights, crowds or relevant props.
+- Use bold white subtitles with a thick dark outline, synchronized in short phrases (usually 1–2 words at a time).
+- Do not use blank, transparent, gradient-only, stock-footage or slideshow backgrounds. Every shot must contain a complete environment.
+
+STORY FORMAT
+Create a 55–70 second vertical short about a verified, little-known true story with an unexpected payoff. A useful narrative pattern is:
+1. Hook (0–3s): one strange, curiosity-provoking sentence; hide the explanation.
+2. Setup (3–12s): establish who/where/what is at stake with one concrete detail.
+3. Skeptic or mocker (12–20s): a character dismisses the unusual idea with one short line.
+4. Escalation (20–40s): reveal several increasingly strange developments; keep the skeptic confident.
+5. Explanation (around 40–55s): explain the mechanism in simple everyday language.
+6. Payoff (final 8–12s): visually show the surprising result. End on the strongest reveal; avoid an unnecessary moral.
+
+NARRATION
+- One energetic, conversational storyteller.
+- Fast but natural delivery, clear pronunciation and varied emphasis.
+- Aim for roughly 200–240 spoken words for a 60-second video, adjusting for pauses and clarity.
+- No long introduction, channel greeting or filler.
+
+PRODUCTION WORKFLOW
+1. Suggest five original topic ideas and wait for my selection.
+2. Research the selected story using reliable sources; separate confirmed facts from uncertainty.
+3. Write the narration and a timed scene-by-scene storyboard.
+4. For every scene specify: environment, characters, props, character action/expression, camera movement, lighting, subtitle text, sound effects and duration.
+5. Create consistent character and environment designs across shots.
+6. Build the 3D sets first, then place the flat 2D characters into them with matching perspective and shadows.
+7. Animate the camera, characters and relevant environmental elements.
+8. Add voiceover, subtle background music, sound effects and word-timed captions.
+9. Review every frame for empty backgrounds, inconsistent character design, poor compositing, clipping, unreadable text and weak pacing.
+10. Render the finished vertical video.
+
+OUTPUT
+- 9:16 vertical video, 1080x1920 target, 55–70 seconds.
+- Provide the finished video if your tools support rendering.
+- If you cannot render, provide all source files, scene prompts, timings, voiceover, captions and a clear render workflow. Never pretend a script or storyboard is a finished video.
+
+QUALITY CHECK — MUST PASS
+[ ] Every scene has a complete, story-specific 3D environment.
+[ ] Flat 2D characters are integrated into the 3D world with matching light and shadows.
+[ ] No blank or generic backgrounds.
+[ ] Camera movement is smooth and purposeful.
+[ ] Character expressions and props support the narration.
+[ ] Captions are readable and synchronized.
+[ ] Facts are verified and the story is original.
+[ ] The final payoff is shown visually, not merely explained.
+
+START by suggesting five original, fact-checkable stories. Do not begin full production until I choose one.
